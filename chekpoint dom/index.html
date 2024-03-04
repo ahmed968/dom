@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/240e3f34af.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+  <body >
+
+<header class="header">
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-ada-4090-web-og-1200x630.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/oQ3doVZuPPk/maxresdefault.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.mos.cms.futurecdn.net/oNgjwjhd3HL9xAjLoCG85Y.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+</header>
+
+
+    <div id="container">
+        <section class="box1">
+      <div class="box">
+        <h2>Carte Graphique</h2>
+        <img
+          width="155"
+          src="https://apibackend.megapc.tn//uploads/gallerie/1666618823487.webp"
+          alt="pic"
+        />
+        <button type="button" class="btn btn-primary plus">+</button>
+        <input type="text" value="1" class="quantity" />
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete">DELETE</button>
+        <span class="price">$200</span>
+        <i class="heart fa fa-heart-o"></i>
+      </div>
+    </section>
+<section class="box2">
+      <div class="box">
+        <h2>Ecran</h2>
+        <img
+          width="155"
+          src="https://media.cdnws.com/_i/45353/cs400-45705/555/7/materiels-informatique-samsung-odyssey-g7-c27g75tqsr-infinytech-reunion-10.jpeg"
+          alt="pic"
+        />
+        <button type="button" class="btn btn-primary plus">+</button>
+        <input type="text" value="1" class="quantity" />
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete">DELETE</button>
+        <span class="price">$100</span>
+        <i class="heart fa fa-heart-o"></i>
+      </div> 
+    </section>
+    <section class="box3">
+      <div class="box">
+        <h2>Processeur</h2>
+        <img
+          width="155"
+          src="https://www.sbsinformatique.com/16932/tunisie/large/processeur-amd-ryzen-9-7950x3d.jpg"
+          alt="pic"
+        />
+        <button type="button" class="btn btn-primary plus">+</button>
+        <input type="text" value="1" class="quantity" />
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete">DELETE</button>
+        <span class="price">$50</span>
+        <i class="heart fa fa-heart-o"></i>
+      </div>
+    </div>
+</section>
+
+    <div id="total-price">
+      <h2>total-price:</h2>
+    </div>
+
+    <footer>
+        <footer class="bg-body-tertiary text-center">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Form -->
+              <section class="">
+                <form action="">
+                  <!--Grid row-->
+                  <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                      <p class="pt-2">
+                        <strong>Sign up for our newsletter</strong>
+                      </p>
+                    </div>
+                    <!--Grid column-->
+          
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                      <!-- Email input -->
+                      <div data-mdb-input-init class="form-outline mb-4">
+                        <input type="email" id="form5Example26" class="form-control" />
+                        <label class="form-label" for="form5Example26">Email address</label>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+          
+                    <!--Grid column-->
+                    <div class="col-auto">
+                      <!-- Submit button -->
+                      <button data-mdb-ripple-init type="submit" class="btn btn-primary mb-4">
+                        Subscribe
+                      </button>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                </form>
+              </section>
+              <!-- Section: Form -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+              © 2024 Copyright:
+              <a class="text-body" href="https://mdbootstrap.com/">GoMytech</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
